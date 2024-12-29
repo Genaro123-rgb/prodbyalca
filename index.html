@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCA Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">ALCA MUSIC</h1>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tracks">Tracks</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>ALCA</h2>
+            <p>Professional Music Production</p>
+            <a href="#services" class="btn">Services</a>
+            <a href="#tracks" class="btn">Tracks</a>
+        </div>
+    </section>
+
+    <section id="tracks" class="tracks">
+        <div class="container">
+            <h2>Track List</h2>
+            <div class="track-list">
+                <!-- Table Header -->
+                <div class="track-header">
+                    <div>Cover</div>
+                    <div>Title</div>
+                    <div>Time</div>
+                    <div>BPM</div>
+                    <div>Tags</div>
+                    <div>Share</div>
+                    <div>Price</div>
+                </div>
+                <!-- Track Rows -->
+                <div class="track-item">
+                    <div><img src="assets/covers/cover1.jpg" alt="Cover"></div>
+                    <div class="track-title">Rollie</div>
+                    <div>01:36</div>
+                    <div>140</div>
+                    <div class="track-tags">
+                        <span class="tag">21 Savage</span>
+                        <span class="tag">Peso Pluma</span>
+                    </div>
+                    <div class="track-share">🔗</div>
+                    <div class="track-price">$19.99</div>
+                </div>
+                <div class="track-item">
+                    <div><img src="assets/covers/cover1.jpg" alt="Cover"></div>
+                    <div class="track-title">Dinero</div>
+                    <div>01:01</div>
+                    <div>109</div>
+                    <div class="track-tags">
+                        <span class="tag">21 Savage</span>
+                        <span class="tag">Peso Pluma</span>
+                    </div>
+                    
+                    <div class="track-share">🔗</div>
+                    <div class="track-price">$19.99</div>
+                </div>
+                <div class="track-item">
+                    <div><img src="assets/covers/cover1.jpg" alt="Cover"></div>
+                    <div class="track-title">Problems</div>
+                    <div>01:47</div>
+                    <div>89</div>
+                    <div class="track-tags">
+                        <span class="tag">dababy</span>
+                        <span class="tag">drake</span>
+                    </div>
+                    
+                    <div class="track-share">🔗</div>
+                    <div class="track-price">$19.99</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <img src="assets/images/foto3.jpeg" alt="Dolby Atmos Mixing">
+                    <h3>Dolby Atmos Mixing</h3>
+                    <p>$150.00</p>
+                    <a href="#" class="btn">Details</a>
+                </div>
+                <div class="service-card">
+                    <img src="assets/images/foto2.jpeg" alt="Music Production">
+                    <h3>Music Production</h3>
+                    <p>$100.00</p>
+                    <a href="#" class="btn">Details</a>
+                </div>
+                <div class="service-card">
+                    <img src="assets/images/foto1.jpeg" alt="Mix and Mastering">
+                    <h3>Mix and Mastering</h3>
+                    <p>$75.00</p>
+                    <a href="#" class="btn">Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="E-mail Address" required>
+                </div>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ALCA Music. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
